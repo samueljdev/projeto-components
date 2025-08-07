@@ -15,7 +15,8 @@ import { CardRoxoButtonComponent } from './card-roxo-button/card-roxo-button.com
     CardRoxoButtonComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CardsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
