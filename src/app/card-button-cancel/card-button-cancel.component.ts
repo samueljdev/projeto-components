@@ -4,21 +4,11 @@ import { Component } from '@angular/core';
   selector: 'app-card-button-cancel',
   templateUrl: './card-button-cancel.component.html',
   styleUrls: ['./card-button-cancel.component.scss'],
-  styles: [
-    `.card-button-cancel {
-      font-size: 16px;
-      text-align: center;
-      margin-top: 10px;
-      border-radius: 25px;
-      background-color: #5686d9ff;
-      cursor: pointer;
-      font-weight: bold;
-      padding: 10px;
-    }`,
-    `.card-button-cancel:hover {
-      background-color: #4b5f83ff;
-    }`
-  ],
+  /* 
+    não referenciar mais de um arquivo de estilos, nem estilos de outro componente
+    styleUrls: ['./card-button-cancel.component.scss', './card-button-cancel-2.component.scss'],
+    styleUrls: ['./card-button-cancel.component.scss', '../card/card.component.scss'],
+  */
 })
 export class CardButtonCancelComponent {
 
